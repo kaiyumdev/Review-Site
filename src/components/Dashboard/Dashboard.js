@@ -58,8 +58,6 @@ const Dashboard = () => {
   };
   return (
     <div className="chart-container">
-      {/* <h1>This is Dashboard</h1> */}
-
       <div className="radial-bar">
         <RadialBarChart
           width={730}

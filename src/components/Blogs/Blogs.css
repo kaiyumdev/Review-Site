@@ -4,7 +4,19 @@
     justify-content: space-evenly;
     align-items: center;
     gap:10px;
+    background-color: #E9E3DC;
 }
 .blogs{
     padding:20px;
+}
+.blogs >h1 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-family: "Secular One", sans-serif;
+}
+.text{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-family: "Secular One", sans-serif;
 }

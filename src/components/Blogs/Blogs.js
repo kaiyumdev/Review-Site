@@ -4,7 +4,7 @@ import './Blogs.css'
 const Blogs = () => {
   return (
     <div>
-      <h1>This is my Blogs</h1>
+      <h1 className="text">This is my Blogs</h1>
       <div className="blogs-container">
         <div className="blogs">
           <h1>Context Api</h1>
