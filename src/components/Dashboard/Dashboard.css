@@ -1,5 +1,5 @@
 .chart-container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    /* place-items: center; */
+    color: rgb(140, 232, 161);
 }

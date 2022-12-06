@@ -1,22 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Secular+One&display=swap");
 .container {
-  width: 45%;
   display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
+  justify-content: space-evenly;
 }
+/* text container */
+.text-container {
+  width: 45%;
+  margin-top: 200px;
+  color: #617280;
+}
+.text-container > h1 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Secular One", sans-serif;
+}
+.text-container .font-text {
+  font-family: "Open Sans", sans-serif;
+  font-size:40px;
+  color:#4D7FAC;
+}
+.text-container>p{
+  font-size:20px;
+  font-weight: bold;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* image container */
 .image-container {
-  width: 100%;
+  width: 45%;
 }
 .image-container img {
-  width: 500px;
-  height: auto;
+  width: 80%;
+  border-radius: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+/* product container */
+.products-container{
+  margin: 20px 0;
 }
 .products-container > h1 {
   text-align: center;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Secular One", sans-serif;
 }
 .product {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
 }

@@ -1,31 +1,37 @@
 [
     {
       "id": "0",
+      "image": "https://i.ibb.co/hFDCWk8/student-6.png",
       "name": "Jon",
       "review": "Great job"
     },
     {
       "id": "1",
+      "image": "https://i.ibb.co/K9LfmdW/student-5.png",
       "name": "Don",    
       "review": "Not bad at all"
     },
     {
       "id": "2",
+      "image": "https://i.ibb.co/2ZjQpnR/student-4.png",
       "name": "Mon",
       "review": "Very good"
     },
     {
       "id": "3",
+      "image": "https://i.ibb.co/zhxp6Vx/student-3.png",
       "name": "Fon",
       "review": "Amazing Experience"
     },
     {
       "id": "4",
+      "image": "https://i.ibb.co/BNdFMSJ/student-2.png",
       "name": "Von",
       "review": "I am very delightful to shop there"
     },
     {
       "id": "5",
+      "image": "https://i.ibb.co/8g98R5M/student-1.png",
       "name": "Pon",
       "review": "Outstanding Product"
     }

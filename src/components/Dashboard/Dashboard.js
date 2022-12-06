@@ -50,42 +50,16 @@ const Dashboard = () => {
       revenue: 61000,
     },
   ];
-//   const style = {
-//     top: '50%',
-//     right: 0,
-//     transform: 'translate(0, -50%)',
-//     lineHeight: '24px',
-//   };
+  const style = {
+    top: '50%',
+    right: 0,
+    transform: 'translate(0, -50%)',
+    lineHeight: '24px',
+  };
   return (
     <div className="chart-container">
-      <h1>This is Dashboard</h1>
-      <div className="simple-radial">
-        <ResponsiveContainer width="100%" height="100%">
-          <RadialBarChart
-            cx="70%"
-            cy="70%"
-            innerRadius="10%"
-            outerRadius="80%"
-            barSize={10}
-            data={data}
-          >
-            <RadialBar
-              minAngle={15}
-              label={{ position: "insideStart", fill: "#f3f9d2" }}
-              background
-              clockWise
-              dataKey="revenue"
-            />
-            <Legend
-            dataKey="revenue"
-              iconSize={10}
-              layout="vertical"
-              verticalAlign="middle"
-            //   wrapperStyle={style}
-            />
-          </RadialBarChart>
-        </ResponsiveContainer>
-      </div>
+      {/* <h1>This is Dashboard</h1> */}
+
       <div className="radial-bar">
         <RadialBarChart
           width={730}
@@ -153,6 +127,33 @@ const Dashboard = () => {
             label
           />
         </PieChart>
+      </div>
+      <div className="simple-radial">
+        <ResponsiveContainer width="100%" height="100%">
+          <RadialBarChart
+            cx="70%"
+            cy="70%"
+            innerRadius="10%"
+            outerRadius="80%"
+            barSize={10}
+            data={data}
+          >
+            <RadialBar
+              minAngle={15}
+              label={{ position: "insideStart", fill: "#f3f9d2" }}
+              background
+              clockWise
+              dataKey="revenue"
+            />
+            <Legend
+            dataKey="revenue"
+              iconSize={10}
+              layout="vertical"
+              verticalAlign="middle"
+              wrapperStyle={style}
+            />
+          </RadialBarChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );

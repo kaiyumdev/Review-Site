@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import Not_Found from './components/Not_Found/Not_Found';
 import Header from './components/Header/Header';
+import './App.css';
 
 function App() {
   return (
