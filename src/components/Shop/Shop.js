@@ -1,10 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faStar} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import "./Shop.css";
+import { Link } from "react-router-dom";
 
 const Shop = ({ product }) => {
-  const { id, image, name, review } = product;
+  const { image, name, review } = product;
   return (
     <div className="main-review">
       <div className="review-product">
@@ -20,6 +21,7 @@ const Shop = ({ product }) => {
           <FontAwesomeIcon icon={faStar}></FontAwesomeIcon>
         </div>
       </div>
+      <Link className="button" to="/review">All Review</Link>
     </div>
   );
 };

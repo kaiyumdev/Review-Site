@@ -1,16 +1,57 @@
-.main-review{
-    width:100%;
+.main-review {
+  width: 100%;
 }
-.review-product{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #E9E3DC;
-    box-shadow: 10px 10px 10px;
-    padding:10px;
-    margin:10px;
-    border-radius:10px;
+.main-review .button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin:10px 0;
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
-.review-img img{
-    width:40px;
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.review-product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e9e3dc;
+  box-shadow: 10px 10px 10px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.review-img img {
+  width: 40px;
 }
